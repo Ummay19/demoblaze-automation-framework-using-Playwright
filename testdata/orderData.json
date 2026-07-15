@@ -1,0 +1,34 @@
+{
+  "validOrder": [
+    {
+      "name": "Umamah",
+      "country": "Pakistan",
+      "city": "Karachi",
+      "card": "1234567890123456",
+      "month": "12",
+      "year": "2027",
+      "expectedMessage": "Thank you for your purchase!"
+    }
+  ],
+  "withoutName": [
+    {
+      "name": "",
+      "country": "Pakistan",
+      "city": "Karachi",
+      "card": "1234567890123456",
+      "month": "12",
+      "year": "2027"
+    }
+  ],
+  "invalidCard": [
+    {
+      "name": "Reem",
+      "country": "Pakistan",
+      "city": "Karachi",
+      "card": "invalid-card",
+      "month": "12",
+      "year": "2027",
+      "expectedMessage": "Thank you for your purchase!"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "validUsers": [
+    {
+      "username": "Umamah",
+      "password": "Salarsikandar",
+      "expectedUser": "Welcome Umamah"
+    }
+  ],
+  "invalidUsers": [
+    {
+      "username": "BikerGirl",
+      "password": "KawasakiNinjaH2R"
+    }
+  ]
+}
